@@ -5,7 +5,7 @@ import Constants from '../Constants'
 
 let _profile = null;
 
-export default class UserStore extends EventEmitter {
+class UserStore extends EventEmitter {
   constructor() {
     super();
 
@@ -40,4 +40,4 @@ export default class UserStore extends EventEmitter {
   }
 }
 
-export default new UserStore();
+export default new UserStore()
